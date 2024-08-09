@@ -1,7 +1,7 @@
 // src/App.jsx
 import { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar'; // Import the Navbar component
+import Navbar from './components/NavBar'; // Import the Navbar component
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Banner from "./components/Banner";
 import { Container, Typography, Button } from '@mui/material';
