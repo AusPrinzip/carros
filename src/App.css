@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+.App {
+  margin-top: 0; /* Ensure there's no margin pushing the content down */
+}
+
+.MuiAppBar-root {
+  position: fixed; /* Make sure the AppBar stays fixed at the top */
+  width: 100%; /* Ensure it spans the full width */
+  top: 0; /* Align it to the top of the viewport */
+  z-index: 1200; /* Make sure it appears above other content */
+}
+
